@@ -1,0 +1,157 @@
+
+
+/* home */
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 140px;
+  padding-bottom: 50px;
+  color: #152c5b;
+  font-weight: bold;
+
+}
+
+
+/* boking informations */
+
+.mainscreen
+{
+
+	  display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #152C5B;
+    padding: 20px 40px;
+}
+
+.card {
+
+    background: white;
+    position:center;
+    align-self: center;
+    top: 50rem;
+    border-radius: 1.5rem;
+    box-shadow: 4px 3px 20px #3535358c;
+    display:flex;
+    flex-direction: row;
+    text-align: left;
+    
+}
+
+.rightside h1 {
+  position: relative;
+  right: 200px;
+  text-align: center;
+}
+
+.leftside {
+
+	display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
+}
+
+.leftside h1 {
+  position: absolute;
+  padding: 20px 40px;
+  background-color: rgba(217,217,217,0.7);
+  color: #152C5B;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.leftside p {
+  position: absolute;
+  color: #F2994A;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  top: 860px;
+}
+
+.night {
+  color: #615a5a;
+}
+
+.product {
+  object-fit: cover;
+	width: 20em;
+  height: 20em;
+  border-radius: 50%;
+}
+
+.rightside {
+    background-color: #ffffff;
+	  border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 20px 40px;
+}
+
+.rightside h1 {
+  border-bottom: 2px solid #F2994A;
+  width: 100%;
+  text-align: center; 
+}
+
+p{
+    display:block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: .8rem 0;
+}
+
+.inputbox
+{
+    color:#030303;
+	  width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid #ccc;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    color: #615a5a;
+    font-size: 1.1rem;
+    font-weight: 500;
+    outline:none;
+}
+
+.expcvv {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 0.6rem;
+}
+
+.expcvv_text{
+    padding-right: 1rem;
+}
+.expcvv_text2{
+    padding:0 1rem;
+}
+
+.button{
+    cursor: pointer;
+    background-color: #219653;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    width:100%;
+    letter-spacing: .11rem;
+    outline:none;
+}
+
+.button:hover
+{
+	transform: scale(1.05) translateY(-3px);
+    box-shadow: 3px 3px 6px #38373785;
+}
