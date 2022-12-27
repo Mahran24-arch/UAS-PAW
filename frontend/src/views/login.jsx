@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector} from 'react-redux';
 import { LoginUser, reset, getMe } from '../features/authSlice';
 import axios from 'axios';
+import "../css/stylead.css"
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -38,7 +39,7 @@ const Login = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-r from-white to-[#e0d0c1] w-screen flex justify-center items-center">
+      <div className="container">
         <div className="w-80 h-96 bg-white rounded-lg shadow-lg">
           <p className="text-center text-2xl font-bold my-5">Login</p>
           <div className="p-5 ">
@@ -58,7 +59,7 @@ const Login = () => {
               )}
             </form>
             <div className="flex justify-center">
-              <p>Belum punya akun? Daftar Sekarang</p>
+              <p>Belum punya akun?</p>
               <Link to={'/regist'}>
                 <small className="underline text-sm ml-2">Sign Up Disini</small>
               </Link>

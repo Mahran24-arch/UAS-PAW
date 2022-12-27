@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import "../css/stylere.css"
 
 const Register = () => {
   const [nama, setNama] = useState('');
@@ -40,7 +41,7 @@ const Register = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-r from-white to-[#e0d0c1] w-screen flex justify-center items-center">
+      <div className="container">
         <div className="w-80 bg-white rounded-lg shadow-lg">
           <p className="text-center text-2xl font-bold my-5">Register</p>
           <div className="p-5 ">
@@ -61,7 +62,9 @@ const Register = () => {
                 <option value="user">User</option>
                 <option value="Admin">Admin</option>
               </select>
-              <button className="btn  w-full mb-3">Sign Up</button>
+              <br></br>
+              <br></br>
+              <Link className="btn" to={'/login'}> Register</Link>
             </form>
             <div className="flex justify-center">
               <p>Sudah Punya Akun?</p>
