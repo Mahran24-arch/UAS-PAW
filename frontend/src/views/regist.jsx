@@ -64,7 +64,7 @@ const Register = () => {
               </select>
               <br></br>
               <br></br>
-              <Link className="btn" to={'/login'}> Register</Link>
+              <button className="btn  w-full mb-3">Sign Up</button>
             </form>
             <div className="flex justify-center">
               <p>Sudah Punya Akun?</p>
